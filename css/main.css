@@ -1,0 +1,162 @@
+/******Base Styles******/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515751;
+}
+
+/******Grid******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+.h1-width{
+    float: left;
+    width: 300px;
+}
+.nav-width{
+    float: left;
+    width: 900px;
+    text-align: left;
+}
+/******Header******/
+
+header {
+    height: 550px;
+    background-color: #F5F9E9;
+    background-size: cover;
+    background-position: center;
+    }
+header h1 { 
+    padding: 75px 0 75px 25px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #515751;
+    width: 300px;
+}
+nav {
+    float: right; 
+    padding: 75px 25px 75px 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; 
+    color: #515751; 
+    padding-left: 25px; 
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'lora', serif;
+    font-size: 54px;
+    line-height: 50px; 
+    color: #515751;
+    padding-left: 25px;
+}
+header h2 span {
+    color: #596869;
+}
+header p {
+    color: #515751;
+    font-size: 48px;
+    padding: 0 0 20px 25px;
+}
+/******About******/
+
+#about .full-width {
+    padding-bottom: 50px;
+    text-align: center;
+}
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+    color: #515751;
+}
+#about p {
+    font-size: 21px;
+    color:#515751;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 25px 50px 0 50px;
+}
+#about #about-image{
+    margin-left: 25px;
+    border: 12px solid #515751;
+}
+
+/******Work******/
+
+#work {
+    background-color: #F5F9E9;
+    text-align: center;
+}
+#work .full-width {
+    padding: 50px 0;
+}
+#work h2 {
+    margin-top: 0;
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-family: 'lora', serif;
+}
+#work img {
+    border: 12px solid #515751;
+    margin-bottom: 25px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    font-family: 'lora', serif;
+}
+ #work p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+/******Contact******/
+
+#contact {
+    background-color: #EBEBEB;
+}
+#contact .full-width {
+    text-align: center;
+}
+#contact .half-width {
+    margin-bottom: 50px;
+}
+#contact h2 {
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 25px;
+    font-family: 'lora', serif;
+}
+#contact a {
+    text-decoration: underline;  
+}
+#contact p{
+    font-size: 18px;
+}
+#contact .copyright {
+    padding-top: 250px;
+    font-size: 12px;
+}
